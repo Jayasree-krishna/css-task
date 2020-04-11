@@ -1,0 +1,137 @@
+body
+{
+    margin:0;
+    padding:0;
+}
+header
+{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("src/3.jpeg");
+    background-size:cover;
+    height: 100vh;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.navbar .navbar-brand,.navbar-nav .nav-item .nav-link
+{
+    color:white;
+    font-size: 20px;
+}
+.nav-item .nav-link:hover
+{
+	text-decoration-color:#ff6600;
+}
+.header-main
+{
+	color:white;
+	margin-top:15%;
+	position:absolute;
+	left:8%;
+}
+.btn-basic
+{
+	width:250px;
+    height:auto;
+	border-radius: 20px;
+    border: 2px solid #ff6600;
+    background-color: #ff6600;
+}
+.btn-basic:hover
+{
+    background-color: #b44d07;
+}
+.btn
+{
+    width:250px;
+    border-radius: 20px;
+    border: 2px solid #ff6600;
+    padding:10px 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.btn:hover
+{
+    border: 2px solid #ff6600;
+    background-color: #ff6600;
+}
+.row .card-img-top
+{
+    width:150px;
+    height:150px;
+}
+.btn-primary
+{
+	 background-color: #ff6600;
+	 box-sizing:border-box;
+	 border:2px solid Blue;
+	 border-radius:4px;
+	 padding:0px;
+	 
+	
+}
+.btn-primary:hover
+{
+     background-color: #b44d07;
+}
+.row .card
+{
+    background-color: #ccffff;
+}
+.row .card:hover
+{
+    background-color: #11e4e4;
+    box-shadow: 5px 10px 8px grey;
+}
+.row .card
+{
+   margin-bottom: 30px;
+} 
+.next
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("src/4.jpeg");
+    height:40vh;
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+ }   
+ .after-technologies
+ {
+    height:50vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("src/1.jpeg");
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;;
+
+}
+#submit
+{
+	background-color:#ff6600;
+	border:1px solid Blue;
+	border-radius:2px;
+}
+.after-request
+{
+	
+    height:55vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("src/2.jpeg");
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+h2
+{
+    text-align: center;
+}
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #ff6600;
+    width: 50%;
+    
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Project FrontEnd</title>
+	<link rel="stylesheet" href="src/bootstrap.min.css">
+    <script src="src/jquery.min.js"></script
+    <script src="src/popper.min.js"></script>
+    <script src="src/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/04f3d8d1d6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!--Navigation-->
+	<header>
+	<nav class="navbar navbar-expand-lg navbar-dark">
+	<div class="container-fluid">
+	<a class="navbar-brand" href="#">CodingClub</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+	<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item">
+				<a class="nav-link" href="#projects">Projects we did</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#about-us">Technologies</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#project-request">Project Request</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#contactus">Contact Us</a>
+			</li>
+		</ul>
+	</div>
+	</div>		
+	</nav>
+	<div class="header-main">
+		<h1>This is the club</br>where students are ready to rock</h1>
+	</br>
+			<button type="button" class="btn btn-basic btn-lg"><a href="#" style="color:white;text-decoration: none";>Submit Your Project Idea</a></button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<button type="button" class="btn btn-outline-light btn-lg"><a href="#" style="color:white;text-decoration: none";>Know More....</a></button>
+	</div>
+</header>
+	<section class="projects" id="projects">
+		<h2 style="text-align: center";>We did x number of projects Top 3 here</h2>
+			<hr/>	
+			<div class="row">
+				<div class="col-12 col-sm-12 col-md-4">
+					<div class="card">
+						<img src="src/flipkart.png" class="card-img-top" alt="Flipkart">
+						<div class="card-body">
+							<h4 class="card-title">FlipKart</h4>
+							<p class="card-text">Flipkart is a website where you can buy items online</p>
+							<a href="http://flipkart.com" class="btn btn-primary btn-xs">Go Flipkart</br>Ab Har Wish Hogi Poori</a>
+					</div>
+				</div>
+				</div>
+			 <div class="col-12 col-sm-12 col-md-4" >
+            <div class="card">
+              <img src="src/udemy.png" class="card-img-top" alt="Udemy">
+              <div class="card-body">
+                <h5 class="card-title">Udemy</h5>
+                <p class="card-text">Udemy is online education website</p>
+                <a href="http://www.udemy.com" class="btn btn-primary btn-xs">Go Udemy</br>be able</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4">
+            <div class="card" >
+              <img src="src/instagram.png" class="card-img-top" alt="Instagram">
+              <div class="card-body">
+                <h5 class="card-title">Instagram</h5>
+                <p class="card-text">Instagram is a social Media website</p>
+                <a href="http://www.instagram.com" class="btn btn-primary btn-xs">Go Instagram</br>share the world's moments!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+	</section>
+	<section class="next"></section>
+	<section class="about-us" id="about-us">
+		<div class="content">
+			<h2 style="text-align: center";>Currently we are working on below technologies</h2>
+			<div class="row">
+          <div class="col-12 col-sm-12 col-md-4">
+            <div class="card">
+              <img src="src/web-design.png" class="card-img-top" alt="web design">
+              <div class="card-body">
+                <p class="card-text"><b>Web Design</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4">
+            <div class="card">
+              <img src="src/android.png" class="card-img-top" alt="android">
+              <div class="card-body">
+                <p class="card-text"><b>Android</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+	<section class="after-technologies"></section>
+	<section class="project-request" id="project-request">
+		<h2 style="text-align:center";>Request Your Project</h2>
+	</div>
+		<form>
+			<div class="form-group">
+				<label for="ProjectName:">ProjectName:</label>
+				<input type="name" class="form-control" id="name" placeholder="Enter Project Name">
+			</div>
+			<div class="form-group">
+				<label for="skills:">Enter Required Skills:</label>
+				<textarea class="form-control" id="rskills" rows="4" placeholder="Enter the required skiils"></textarea>
+			</div>
+			<div class="form-group">
+				<label for="pdf">About your project in detail pdf format</label></br>
+				<input type="file" class="file">
+			</div>
+			<button type="submit" id="submit">Submit</button>
+
+		</form>	
+	</section>
+	<section class="after-request"></section>
+			<!--<div class="container-fluid" style="background-color: #ff6600; padding: 13px 13px; left: 10%";>
+			<h5>Get connected with us on social networks!</h5>
+			<div class="col-md-6 col-lg-7 text-center text-md-right">
+				<a href="#" style="color: black";><i class="fab fa-facebook"></i></a>
+				<a href="#"><i class="fab fa-twitter"></i></a>
+				<a href="#"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+				<a href="#"><i class="fab fa-youtube"></i></a>
+			</div>	-->
+		<div class="container-fluid padding" style="background-color: #ff6600";>
+		<div class="row text-center padding">
+			<div class="col-12">
+				<h4>Get connectecd with us on social networks!</h4>
+			</div>
+			<div class="col-12 social padding">
+				<a href="#" style="color: black";><i class="fab fa-facebook"></i></a>&nbsp&nbsp
+				<a href="#" style="color: rgb(15, 121, 192)";><i class="fab fa-twitter"></i></a>&nbsp&nbsp
+				<a href="#" style="color: black";><i class="fab fa-google-plus-g"></i></a>&nbsp&nbsp
+				<a href="#" style="color: black";><i class="fab fa-youtube"></i></a>&nbsp&nbsp
+				<a href="#" style="color: black";><i class="fab fa-instagram"></i></a>&nbsp&nbsp
+			</div>
+		</div>
+		</div>	
+		<footer class="Contactus">
+		<hr class="light">	
+		<div class="container-fluid padding">
+		<div class="row text-center">
+			<div class="col-md-4">
+				<h5>Coding Club</h5>
+				<hr class="light">
+				<p>Coding Club is an autonomous</br>Club.Interested students can learn </br>programming in this club can do</br> projects assigned by mentor</p>	
+			</div>
+			<div class="col-md-4">
+				<h5>Contact</h5>
+				<hr class="light">
+				  <p><i class="fas fa-home mr-3"></i>IIIT-RGUKT</br>RKVALLEY,KADAPA,AP-516330</p>
+          		  <p> <i class="fas fa-envelope mr-3"></i>codingclub@gmail.com</p>	
+         		   <p>	 <i class="fas fa-phone mr-3"></i> +91 xxxxxxxxxx</p>
+
+			</div>
+			<div class="col-12">
+				<hr class="light"style="background-color: black";>
+				<h5>&copy;2020 Copyright:<a href="#">CodingClub.com</a></h5>
+
+		</footer>
+
+	
+
+</body>
+</html>
